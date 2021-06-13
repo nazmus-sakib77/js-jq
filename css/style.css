@@ -1,0 +1,63 @@
+/* dragable */
+#draggable {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+
+/* dragable */
+
+/* resizeable */
+#resizable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  background-color: aliceblue;
+}
+
+#resizable h3 {
+  text-align: center;
+  margin: 0;
+}
+
+/* resizeable */
+
+
+/* dropable */
+#droppable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+}
+
+/* dropable */
+
+/* scalable */
+#feedback { font-size: 1.4em; }
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; width: 450px; }
+#selectable li { margin: 3px; padding: 1px; float: left; width: 100px; height: 80px; font-size: 4em; text-align: center; }
+/* scalable */
+
+
+/* sortable */
+#sortable1, #sortable2, #sortable3 { list-style-type: none; margin: 0; float: left; margin-right: 10px; background: #eee; padding: 5px; width: 143px;}
+#sortable1 li, #sortable2 li, #sortable3 li { margin: 5px; padding: 5px; font-size: 1.2em; width: 120px; }
+/* sortable */
+
+
+.prog{
+
+}
+
+.ui-widget-header {
+  border: 1px solid #dddddd;
+  background: #a01e1e;
+  color: #333333;
+  font-weight: bold;
+}
